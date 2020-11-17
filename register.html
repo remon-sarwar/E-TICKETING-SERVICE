@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Registation | Auto e ticketing portal</title>
+		<!-- ================ Favicon ===================== -->
+		<link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
+		<!-- ============ bootstrap css ================= -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<!-- ============= font awesome css =============== -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- ============= owl carousel css ============== -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<!-- ==============custom css ==================== -->
+		<link rel="stylesheet" href="css/custom.css">
+		<!-- ============== main css ===================== -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body style="font-family: initial;">
+		<!-- header start here -->
+		<header class="">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" style="height: 60px;"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<!-- <li class="nav-item ">
+									<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							</li> -->
+							<li class="nav-item ">
+								<a class="nav-link" href="find.html">Find Auto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="booking.html">Booking Auto</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="login.html">Login</a>
+							</li>
+							<li class="nav-item active">
+								<a class="nav-link" href="register.html">Register</a>
+							</li>
+							<!-- <li class="nav-item">
+									<a class="nav-link" href="#">About Us</a>
+							</li> -->
+							<!-- <li class="nav-item">
+								<a class="nav-link" href="#">Contact Us</a>
+							</li> -->
+						</ul>
+						
+						<ul class="nav justify-content-end">
+							<a href="login.html"><button class="btn btn-outline-success my-2 my-sm-0" type="button">Login</button></a> &nbsp;&nbsp;&nbsp;
+							<a href="register.html"><button class="btn btn-outline-danger my-2 my-sm-0" type="button">Register</button></a>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+
+
+
+
+		<div class="container register">
+			<style>
+				.register{
+					background: -webkit-linear-gradient(left, #34ce57, #ff0047);
+					margin-top: 3%;
+					padding: 3%;
+				}
+				.register-left{
+					text-align: center;
+					color: #fff;
+					margin-top: 4%;
+				}
+				.register-left input{
+					border: none;
+					border-radius: 1.5rem;
+					padding: 2%;
+					width: 60%;
+					background: #f8f9fa;
+					font-weight: bold;
+					color: #383d41;
+					margin-top: 30%;
+					margin-bottom: 3%;
+					cursor: pointer;
+				}
+				.register-right{
+					background: #f8f9fa;
+					border-top-left-radius: 10% 50%;
+					border-bottom-left-radius: 10% 50%;
+				}
+				.register-left img{
+					margin-top: 15%;
+					margin-bottom: 5%;
+					width: 25%;
+					-webkit-animation: mover 2s infinite  alternate;
+					animation: mover 1s infinite  alternate;
+				}
+				@-webkit-keyframes mover {
+					0% { transform: translateY(0); }
+					100% { transform: translateY(-20px); }
+				}
+				@keyframes mover {
+					0% { transform: translateY(0); }
+					100% { transform: translateY(-20px); }
+				}
+				.register-left p{
+					font-weight: lighter;
+					padding: 12%;
+					margin-top: -9%;
+				}
+				.register .register-form{
+					padding: 10%;
+					margin-top: 10%;
+				}
+				.btnRegister{
+					float: right;
+					margin-top: 10%;
+					border: none;
+					border-radius: 1.5rem;
+					padding: 2%;
+					background: #ff0047;
+					color: #fff;
+					font-weight: 600;
+					width: 50%;
+					cursor: pointer;
+				}
+				.register .nav-tabs{
+					margin-top: 3%;
+					border: none;
+					background: #ff0047;
+					border-radius: 1.5rem;
+					width: 28%;
+					float: right;
+				}
+				.register .nav-tabs .nav-link{
+					padding: 2%;
+					height: 34px;
+					font-weight: 600;
+					color: #fff;
+					border-top-right-radius: 1.5rem;
+					border-bottom-right-radius: 1.5rem;
+				}
+				.register .nav-tabs .nav-link:hover{
+					border: none;
+				}
+				.register .nav-tabs .nav-link.active{
+					width: 100px;
+					color: #34ce57;
+					border: 2px solid #34ce57;
+					border-top-left-radius: 1.5rem;
+					border-bottom-left-radius: 1.5rem;
+				}
+				.register-heading{
+					text-align: center;
+					margin-top: 8%;
+					margin-bottom: -15%;
+					color: #495057;
+				}
+			</style>
+			<div class="row">
+				<div class="col-md-3 register-left">
+					<img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+					<h3>Welcome To Registration From</h3>
+					<p>You Have 270 seconds To complete the Registration</p>
+					<input type="submit" name="" value="Login"/><br/>
+				</div>
+				<div class="col-md-9 register-right">
+					<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Employee</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Customer</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<h3 class="register-heading">Apply as a Employee</h3>
+							<div class="row register-form">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="First Name *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Last Name *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" placeholder="Password *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
+									</div>
+									<div class="form-group">
+										<div class="maxl">
+											<label class="radio inline">
+												<input type="radio" name="gender" value="male" checked>
+												<span> Male </span>
+											</label>
+											<label class="radio inline">
+												<input type="radio" name="gender" value="female">
+												<span>Female </span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Your Email *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
+									</div>
+									<div class="form-group">
+										<select class="form-control">
+											<option class="hidden"  selected disabled>Please select your Sequrity Question</option>
+											<option>What is your Birthdate?</option>
+											<option>What is Your old Phone Number</option>
+											<option>What is your Pet Name?</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
+									</div>
+									<input type="submit" class="btnRegister"  value="Register"/>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<h3  class="register-heading">Apply as a Customer</h3>
+							<div class="row register-form">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="First Name *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="Last Name *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" placeholder="Email *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *" value="" />
+									</div>
+
+
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<input type="password" class="form-control" placeholder="Password *" value="" />
+									</div>
+									<div class="form-group">
+										<input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+									</div>
+									<div class="form-group">
+										<select class="form-control">
+											<option class="hidden"  selected disabled>Please select your Sequrity Question</option>
+											<option>What is your Birthdate?</option>
+											<option>What is Your old Phone Number</option>
+											<option>What is your Pet Name?</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" placeholder="`Answer *" value="" />
+									</div>
+									<input type="submit" class="btnRegister"  value="Register"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<!-- start footer top area -->
+		<section class="footer-top-area fix">
+			<div class="container">
+				<div class="row">
+					<!-- footer-about start here -->
+					<div class="col-md">
+						<div class="footer-about">
+							<a href=""><img src="images/logo.png" alt=""></a>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia voluptatibus reiciendis reprehenderit, aliquid enim </p>
+							<div class="widget-icon">
+								<a href=""><i class="fa fa-facebook"></i></a>
+								<a href=""><i class="fa fa-twitter"></i></a>
+								<a href=""><i class="fa fa-instagram"></i></a>
+								<a href=""><i class="fa fa-youtube"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- footer-about stop here -->
+					<!-- our service start here  -->
+					<div class="col-md">
+						<div class="footer-service">
+							<h3>Our Services</h3>
+							<ul>
+								<li><a href="">New Ticket</a></li>
+								<li><a href="">Check Ticket</a></li>
+								<li><a href="">Track Auto</a></li>
+								<li><a href="">Easy to Auto</a></li>
+								<li><a href="">Service One</a></li>
+								<li><a href="">Service Two</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- our service stop here  -->
+					<!-- footer support start here -->
+					<div class="col-md">
+						<div class="footer-support">
+							<h3>Our Support</h3>
+							<ul>
+								<li><a href="">Advance Search</a></li>
+								<li><a href="">Gift Voucher</a></li>
+								<li><a href="">Privacy Policy</a></li>
+								<li><a href="">Terms & Conditions</a></li>
+								<li><a href="">Helps & FAQS</a></li>
+								<li><a href="">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- footer support stop here -->
+					<!-- footer contact start here -->
+					<div class="col-md">
+						<div class="footer-contact">
+							<h3>Contact </h3>
+							<ul>
+								<li>
+									<i class="fa fa-map-marker"></i>
+									Address : cumill,Chandpur
+								</li>
+								<li>
+									<i class="fa fa-envelope"></i>
+									Email : admin@auto.com
+								</li>
+								<li>
+									<i class="fa fa-phone"></i>
+									Phone : +880 1515 258 524
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- footer contact stop here -->
+				</div>
+			</div>
+		</section>
+		<!-- stop footer top area -->
+		<!-- start footer area -->
+		<footer class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md">
+						<div class="copyright">
+							<p>Copyright &copy; 2018 | <a href="">Sarwar jahan</a> All Right Reserved</p>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="payment float-right">
+							<img src="images/payment.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- stop footer area -->
+
+
+		<!-- Scroll top start here -->
+		<script src="js/scroll.js"></script>
+		<script type="text/javascript" src="js/scrolltop.js"></script>
+		<!-- Scroll top stop here -->
+		<!-- ============== jquery 2.2.4 ============ -->
+		<!-- <script src="js/jquery.2.2.4.min.js"></script> -->
+		<script src="js/jquery-1.12.0.min.js"></script>
+		<!-- ============= popper js ================= -->
+		<script src="js/vendor/popper.min.js"></script>
+		<!-- ============= bootstrap js =============== -->
+		<script src="js/vendor/bootstrap.min.js"></script>
+		<!-- ============= owl carousel =============== -->
+		<script src="js/vendor/owl.carousel.min.js"></script>
+		<!-- ============= main js ==================== -->
+		<script src="js/main.js"></script>
+	</body>
+</html>
